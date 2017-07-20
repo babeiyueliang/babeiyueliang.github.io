@@ -129,9 +129,9 @@ js css html 压缩混淆
   <article id="post">
     <h1>工具的使用</h1>
     <p class="page-title-sub">
-      <span id = "post-title-date">撰写于 2017-07-20</span>
+      <span id = "post-title-date">Created at 2017-07-20</span>
       
-        <span id = "post-title-updated">修改于 2017-07-20</span>
+        <span id = "post-title-updated">Updated at 2017-07-20</span>
       
       
       
@@ -179,7 +179,7 @@ gulp.task(&#39;hello&#39;,function(){
 <p>然后将bowser-sync集成到gulp中去使用<br><code>http://www.browsersync.cn/docs/gulp/#gulp-sass-css</code><br>用法：在之前的gulpfile.js文件中写入</p>
 <p>`var browserSync = require(‘browser-sync’).create();</p>
 <p>var reload      = browserSync.reload;`</p>
-<p>`//先执行style任务 后执行serve任务<br>gulp.task(‘serve’, [‘style’], function() {</p>
+<p><code>//先执行style任务 后执行serve任务</code><br>`gulp.task(‘serve’, [‘style’], function() {</p>
 <pre><code>browserSync.init({
     server: &quot;./&quot;
 });
@@ -204,10 +204,10 @@ npm install -g generator-webapp</code></p>
 
   </article>
   <div class="random-toc-area">
-  <button class="btn-hide-toc btn-hide-toc-show" style="display: none" onclick="TOCToggle()">显示目录</button>
-  <button class="btn-hide-toc btn-hide-toc-hide" onclick="TOCToggle()">隐藏目录</button>
+  <button class="btn-hide-toc btn-hide-toc-show" style="display: none" onclick="TOCToggle()">Show TOC</button>
+  <button class="btn-hide-toc btn-hide-toc-hide" onclick="TOCToggle()">Hide TOC</button>
   <div class="random-toc">
-    <h2>目录</h2>
+    <h2>Table of Content</h2>
     <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#当下的前端开发"><span class="toc-text">当下的前端开发</span></a></li></ol>
   </div>
 </div>
@@ -219,7 +219,7 @@ npm install -g generator-webapp</code></p>
   
 
   
-    <a href="/2017/07/14/hello-world/" class="next">下一篇 Hello World &rarr;</a>
+    <a href="/2017/07/14/hello-world/" class="next">Next post Hello World &rarr;</a>
   
 </nav>
 
